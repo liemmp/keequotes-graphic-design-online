@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Dexsar Brush Regular';
+    src: url('svn-dhf_dexsar_brush-webfont.woff2') format('woff2'),
+         url('svn-dhf_dexsar_brush-webfont.woff') format('woff'),
+         url('svn-dhf_dexsar_brush-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Awesome Script';
+    src: url('fs_just_awesome_script-webfont.woff2') format('woff2'),
+         url('fs_just_awesome_script-webfont.woff') format('woff'),
+         url('fs_just_awesome_script-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.Dexsarbrushregular {font-family: 'Dexsar Brush Regular', sans-serif; font-size:16px;}
+.Awesomescript {font-family: 'Awesome Script', sans-serif; font-size:16px;}
