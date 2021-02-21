@@ -801,11 +801,11 @@
         $("#addtext").on("click", function(e) {
             text = new fabric.IText("Text", {
                 id: "cardalltexthex",
-                fontSize: 32,
+                fontSize: 42,
                 selectable: true,
-                left: 400,
+                left: 200,
                 top: 100,
-                text: "Thêm nội dung một dòng văn bản",
+                text: "Add a new short text",
                 fill: '#333',
                 opacity :1,
                 lineHeight: 1,
@@ -819,17 +819,17 @@
         });
 
         $("#addtextbox").on("click", function(e) {
-            var t1 = new fabric.Textbox('Thêm nội dung\nhai dòng văn bản', {
+            var t1 = new fabric.Textbox('Add a new\nlong paragraph', {
                 fill: '#666',
                 width: 350,
                 selectable: true,
-                left: 400,
+                left: 100,
                 top: 100,
                 fontSize: 42,
                 textAlign: 'center',
                 originY: 'center',
                 originX: 'center',
-                fixedWidth: 350,
+                fixedWidth: 650,
                 lockUniScaling: false,
                 fontFamily: 'Open Sans',
             });
